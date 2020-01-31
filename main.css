@@ -1,0 +1,35 @@
+/*CSS DOCUMENT*/ 
+body{
+    background-color: rgb(230,240,255)
+}
+.restaurant {
+    font-family:sans-serif;
+    color: rgb(58,57,207);
+    margin: 3em 1em 3em 1.5em;
+}
+h2{
+    font-family: sans-serif;
+    margin-left: 1em;
+    color: rgb(58,57,207);
+}
+h3{
+    font-family: sans-serif;
+    margin-left: 2em;
+    margin-right: 4em;
+    padding-bottom: .5em;
+    text-decoration: none;
+    border-bottom: .5em dotted rgb(58,57,207);
+    color: rgb(58,57,207);
+}
+h5{
+    margin-bottom: 5em;
+}
+ul{
+    font-family: sans-serif;
+    margin-left: 2em;
+    margin-top: 2em;
+    margin-right: 4.5em;
+    background-color: rgb(186,199,248);
+    padding: 1em 2em;
+    color: darkblue;
+}
