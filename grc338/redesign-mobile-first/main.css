@@ -1,49 +1,95 @@
 /*CSS DOCUMENT*/
-img{width: 100;}
 
-body{
+img {
+    width: 100;
+    margin-bottom: 3em;
+}
+
+body {
     background-color: rgb(255, 240, 204);
     font-family: sans-serif;
-    }
+}
 
-h2{
-    color: rgb(196,20,27);
+h2 {
+    color: rgb(196, 20, 27);
+    text-align: center;
+    margin: 2em;
+    padding-top: 200px;
+}
+
+h3 {
+    color: rgb(196, 20, 27);
     text-align: center;
 }
 
-h3{
-    color: rgb(196,20,27);
+h5 {
     text-align: center;
 }
 
-h5{
-    text-align: center;
-}
-
-.menuitems li{
-    float:left;
+.menuitems li {
+    float: left;
     width: 50%;
+    padding-bottom: 1em;
+    list-style-type: none;
+    text-align: center;
+    display: block;
+}
+
+.media li {
+    float: left;
+    width: 30%;
     padding-bottom: 1em;
     list-style-type: none;
     text-align: center;
 }
 
-.media li{
-    float:left;
-    width: 30%;
-    padding-bottom: 1em; 
-    list-style-type: none;
-    text-align: center;
-}
-
-.center{
-    display:block;
+.center {
+    display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    text-align: center;    
+    text-align: center;
+    font-size: 1.1em;
 }
 
-h6{
+h6 {
     text-align: center;
+}
+
+address{
+    text-align: center;
+    margin: 3em;
+    font-size: 2em;
+}
+
+a{
+    text-decoration: none;
+    font-size: 2.5em;
+   padding: 14px 70px
+}
+
+a:link{
+    color: rgb(196, 20, 27);
+    
+}
+
+a:visited{
+    color: rgb(196, 20, 27);
+}
+
+a:hover{
+    color: rgb (196, 20, 27);
+    background-color: rgb (252, 240, 3);
+}
+
+a:active{
+    color: rgb (255,0,0);
+}
+
+.center p{
+    font-size: 1.5em
+}
+
+.aboutp p{
+    padding-bottom: 20px;
 }
