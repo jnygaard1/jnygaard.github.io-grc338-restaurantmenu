@@ -1,0 +1,143 @@
+/*CSS DOCUMENT*/
+
+img {
+    width: 100;
+    margin-bottom: 3em;
+}
+
+body {
+    background-color: rgb(255, 240, 204);
+    font-family: sans-serif;
+}
+
+h1 {
+    color: rgb(196, 20, 27);
+    text-align: center;
+    margin: 2em;
+    padding-top: 20px;
+}
+
+h3 {
+    color: rgb(196, 20, 27);
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+}
+
+.menuitems li {
+    e
+    width: 50%;
+    padding-bottom: 1em;
+    list-style-type: none;
+    text-align: center;
+    display: block;
+    min-width: 15em;
+}
+
+.media li {
+    float: left;
+    width: 30%;
+    padding-bottom: 1em;
+    list-style-type: none;
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+h6 {
+    text-align: center;
+}
+
+address{
+    text-align: center;
+    margin: 3em;
+    font-size: 2em;
+}
+
+a{
+    text-decoration: none;
+    font-size: 2.5em;
+   padding: 14px 70px;
+}
+
+a:link{
+    color: rgb(196, 20, 27);
+    
+}
+
+a:visited{
+    color: rgb(196, 20, 27);
+}
+
+li a:hover{
+    color: rgb (255, 250, 250);
+}
+
+li a:active{
+    color: rgb (255,0,0);
+}
+
+.center p{
+    font-size: 1.5em;
+}
+
+.aboutp p{
+    padding-bottom: 20px;
+    font-size: 1.5em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: left;
+    max-width: 25em;
+    min-width: 16em;
+}
+
+@media only screen and (max-width 600px){
+    .blurb{
+        width: 45%;
+    } 
+    .menuitems li{
+        float:none;
+        font-size: 5em;
+        background-color: aqua;
+        width: 100%;
+    }
+    div.media{
+        width: 30%;
+    }
+
+}
+
+div.container{
+    max-width: 60em;
+    margin: auto;
+}
+
+.blurb{
+    font-size: 1.5em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: left;
+    max-width: 25em;
+    min-width: 16em;
+}
+
+.menuitems li{
+    font-size: .7em;
+}
+
+.media li{
+    font-size: .5em;
+}
